@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital form</title>
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="images/13.jpg" alt="Loading logo" width="150" height="120">
+    </div>
+</header>
+
+<form>
+<nav>
+<section>
+    <div class="hosimage">
+        <div class="header-text">Matter Hospital</div>
+        <p><u>Patient's Admission details</p></u>
+        <form>
+            <label>Which type of patient are you?</label> <br>
+            <input type="radio" name="patient" value="outpatient">Outpatient
+            <input type="radio" name="patient" value="inpatient">Inpatient <br>
+            <label>You are?</label> <br>
+            <input type="radio" name="title" value="ms">Ms
+            <input type="radio" name="title" value="mr">Mr
+            <input type="radio" name="title" value="mrs">Mrs <br>
+
+        <label>First Name:</label>
+        <input type="text" name="fname" placeholder="Enter your first name">
+
+        <label>Second Name:</label>
+        <input type="text" name="sname" placeholder="Enter your second name">
+            <label>Enter your date of birth:</label>
+            <input type="date" name="dob" placeholder="Enter your date of birth">
+
+
+
+                <br>
+
+            <label class="labelstyle">Gender:</label>
+            <select class="labelstyle" name="gender">
+                <option class="optionstyle">Male</option>
+                <option class="optionstyle">Female</option>
+                <option class="optionstyle">Other</option>
+
+
+                <br>
+                <br>
+                <div>
+                <p>Enter your phone number:</p>
+                <input type="tel" name="pnumber" placeholder="Enter your phone number">
+                    <p>Enter your email address:</p>
+                    <input type="email" name="emailaddress" placeholder="youremail@gmail.com">
+                    <button type="button"><a href="next.html" target="_self">Next page</button></a>
+
+                </div>
+
+
+
+
+        </form>
+    </div>
+
+</nav>
+    </section>
+</form>
+</body>
+</html>
